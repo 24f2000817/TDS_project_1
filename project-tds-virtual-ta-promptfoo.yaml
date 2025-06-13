@@ -1,0 +1,10 @@
+providers:
+  - id: virtual-ta
+    config:
+      url: https://yourapp.onrender.com/api/
+
+scenarios:
+  - name: GPT Model Clarification
+    vars:
+      question: "Should I use gpt-4o-mini which AI proxy supports, or gpt3.5 turbo?"
+    expected_output: "`gpt-3.5-turbo-0125`"

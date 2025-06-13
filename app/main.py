@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from app.rag_engine import generate_answer
 
 app = FastAPI()
-
+# Define the data model for the question input
 class Question(BaseModel):
     question: str
     image: str = None  # base64-encoded image (optional)

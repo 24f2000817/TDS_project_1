@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+openai
+pytesseract
+pillow
+faiss-cpu
+sentence-transformers
+python-multipart
+aiofiles
