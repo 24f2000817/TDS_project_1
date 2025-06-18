@@ -11,3 +11,4 @@ playwright
 beautifulsoup4
 markdownify
 gunicorn
+flask
