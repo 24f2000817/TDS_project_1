@@ -4,6 +4,7 @@ env/
 .venv/
 .env/
 # Ignore Python bytecode files
+__pycache__
 __pycache__/
 # Ignore auth.json file
 auth.json
