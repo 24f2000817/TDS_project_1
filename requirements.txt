@@ -7,3 +7,7 @@ faiss-cpu
 sentence-transformers
 python-multipart
 aiofiles
+playwright
+beautifulsoup4
+markdownify
+gunicorn
